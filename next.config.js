@@ -5,13 +5,9 @@ const nextConfig = {
   basePath: '/github-actions-handson',
 }
 
-const runtimeConfig = {
-  serverRuntimeConfig: {
-    basePath: nextConfig.basePath
-  },
-}
-
 module.exports = {
   ...nextConfig,
-  ...runtimeConfig
+  env: {
+    basePath: '/github-actions-handson',
+  },
 }
