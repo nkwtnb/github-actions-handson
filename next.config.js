@@ -5,4 +5,13 @@ const nextConfig = {
   basePath: '/github-actions-handson',
 }
 
-module.exports = nextConfig
+const runtimeConfig = {
+  serverRuntimeConfig: {
+    basePath: nextConfig.basePath
+  },
+}
+
+module.exports = {
+  ...nextConfig,
+  ...runtimeConfig
+}
