@@ -1,5 +1,6 @@
 {
   "name": "github-actions-handson",
+  "homepage": "https://nkwtnb.github.io/github-actions-handson",
   "version": "0.1.0",
   "private": true,
   "scripts": {
