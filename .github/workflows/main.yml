@@ -53,7 +53,7 @@ jobs:
         uses: actions/cache@v1
         with:
           path: ~/.npm
-          key: node-${{ hashFiles("**/package-lock.json") }}
+          key: node-${{ hashFiles('**/package-lock.json') }}
           restore-keyes: node-
 
       - name: install
