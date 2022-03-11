@@ -54,7 +54,7 @@ jobs:
         with:
           path: ~/.npm
           key: node-${{ hashFiles('**/package-lock.json') }}
-          restore-keyes: node-
+          restore-keys: node-
 
       - name: install
         run: npm ci
